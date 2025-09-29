@@ -1,1 +1,7 @@
-My first Readme
+## Sobre o projeto
+
+A API foi desenvolvida em **.NET 8** seguindo os princípios do **Domain-Driven Design (DDD)**, oferecendo uma solução organizada e eficiente para o gerenciamento de despesas pessoais. Seu propósito é permitir que os usuários registrem seus gastos de forma detalhada, incluindo informações como título, data e hora, descrição, valor e tipo de pagamento, sendo todos os dados armazenados com segurança em um banco de dados **MySQL**. 
+
+A arquitetura é baseada no padrão **REST**, utilizando métodos **HTTP** convencionais para garantir uma comunicação simples e eficaz, e conta ainda com documentação via **Swagger**, que disponibiliza uma interface gráfica interativa para que os desenvolvedores possam explorar e testar os endpoints de maneira prática. Para otimizar a implementação, são utilizados pacotes NuGet como o **AutoMapper**, responsável pelo mapeamento entre objetos de domínio e modelos de requisição e resposta, reduzindo a repetição de código; o **FluentAssertions**, empregado em testes de unidade para tornar as verificações mais legíveis e compreensíveis; e o **FluentValidation**, que facilita a definição de regras de validação diretamente nas classes de requisição, contribuindo para um código limpo e de fácil manutenção. 
+
+Por fim, a interação com o banco de dados é simplificada pelo **Entity Framework**, que atua como ORM (Object-Relational Mapper), permitindo manipular dados por meio de objetos **.NET** sem a necessidade de escrever consultas SQL manualmente.
