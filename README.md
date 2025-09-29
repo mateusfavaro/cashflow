@@ -5,3 +5,10 @@ A API foi desenvolvida em **.NET 8** seguindo os princípios do **Domain-Driven 
 A arquitetura é baseada no padrão **REST**, utilizando métodos **HTTP** convencionais para garantir uma comunicação simples e eficaz, e conta ainda com documentação via **Swagger**, que disponibiliza uma interface gráfica interativa para que os desenvolvedores possam explorar e testar os endpoints de maneira prática. Para otimizar a implementação, são utilizados pacotes NuGet como o **AutoMapper**, responsável pelo mapeamento entre objetos de domínio e modelos de requisição e resposta, reduzindo a repetição de código; o **FluentAssertions**, empregado em testes de unidade para tornar as verificações mais legíveis e compreensíveis; e o **FluentValidation**, que facilita a definição de regras de validação diretamente nas classes de requisição, contribuindo para um código limpo e de fácil manutenção. 
 
 Por fim, a interação com o banco de dados é simplificada pelo **Entity Framework**, que atua como ORM (Object-Relational Mapper), permitindo manipular dados por meio de objetos **.NET** sem a necessidade de escrever consultas SQL manualmente.
+
+### Features
+
+- **Domain-Driven Design (DDD):** Estrutura modular que facilita o entendimento e a manutenção do domínio da aplicação.
+- **Testes de Unidade:** Testes abrangentes com FluentAssertions para garantir a funcionalidade e a qualidade.
+- **Geração de Relatórios:** Capacidade de exportar relatórios detalhados para Excel, oferecendo uma análise visual e eficaz das despesas.
+- **RESTful API com Documentação Swagger:** Interface documentada que facilita a integração e o teste por parte dos desenvolvedores.
