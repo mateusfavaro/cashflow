@@ -1,0 +1,6 @@
+@CashFlowMateus.API_HostAddress = http://localhost:5183
+
+GET {{CashFlowMateus.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

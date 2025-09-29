@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CashFlowMateus.Application\CashFlowMateus.Application.csproj" />
+    <ProjectReference Include="..\CashFlowMateus.Communication\CashFlowMateus.Communication.csproj" />
+    <ProjectReference Include="..\CashFlowMateus.Exception\CashFlowMateus.Exception.csproj" />
+    <ProjectReference Include="..\CashFlowMateus.Infrastructure\CashFlowMateus.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
