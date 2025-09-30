@@ -12,3 +12,23 @@ Por fim, a interação com o banco de dados é simplificada pelo **Entity Framew
 - **Testes de Unidade:** Testes abrangentes com FluentAssertions para garantir a funcionalidade e a qualidade.
 - **Geração de Relatórios:** Capacidade de exportar relatórios detalhados para Excel, oferecendo uma análise visual e eficaz das despesas.
 - **RESTful API com Documentação Swagger:** Interface documentada que facilita a integração e o teste por parte dos desenvolvedores.
+
+## Getting Started
+
+Para obter uma copia local do projeto, siga o passo a passo.
+
+### Requisitos
+
+- Visual Studio versão 2022+
+- Windows 10+ ou Linux/MacOS com [.NET SDK](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/sdk-8.0.414-windows-x64-installer) instalado
+- MySql Server
+
+### Instação
+
+1. Clone o repositório: 
+```sh
+git clone https://github.com/mateusfavaro/cashflow.git
+```
+
+2. Preencha as informações no arquivo `appsettings.Development.json`.
+3. Execute a API.
