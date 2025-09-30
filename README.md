@@ -15,7 +15,6 @@ Por fim, a interação com o banco de dados é simplificada pelo **Entity Framew
 
 ### Construido com
 ![badge-dot-net]
-![badge-windows]
 ![badge-mysql]
 ![badge-swagger]
 
@@ -45,6 +44,5 @@ git clone https://github.com/mateusfavaro/cashflow.git
 
 <!-- Badges -->
 [badge-dot-net]: https://img.shields.io/badge/.NET-512BD4?logo=dotnet&logoColor=fff&style=plastic
-[badge-windows]: https://img.shields.io/badge/Git%20for%20Windows-80B3FF?logo=gitforwindows&logoColor=fff&style=plastic
 [badge-mysql]: https://img.shields.io/badge/MySQL-4479A1?logo=mysql&logoColor=fff&style=plastic
 [badge-swagger]: https://img.shields.io/badge/Swagger-85EA2D?logo=swagger&logoColor=000&style=plastic
