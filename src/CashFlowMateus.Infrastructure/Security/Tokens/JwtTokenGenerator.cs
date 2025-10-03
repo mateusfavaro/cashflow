@@ -42,6 +42,7 @@ namespace CashFlowMateus.Infrastructure.Security.Tokens
 
         }
 
+
         private SymmetricSecurityKey SecurityKey()
         {
 
