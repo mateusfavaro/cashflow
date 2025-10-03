@@ -5,6 +5,7 @@ using CashFlowMateus.Application.UseCases.Expenses.GetById;
 using CashFlowMateus.Application.UseCases.Expenses.Register;
 using CashFlowMateus.Application.UseCases.Expenses.Reports.Excel;
 using CashFlowMateus.Application.UseCases.Expenses.Update;
+using CashFlowMateus.Application.UseCases.Users.Register;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace CashFlowMateus.Application
@@ -31,6 +32,7 @@ namespace CashFlowMateus.Application
             services.AddScoped<IDeleteExpenseUseCase, DeleteExpenseUseCase>();
             services.AddScoped<IUpdateRequestUseCase, UpdateRequestUseCase>();
             services.AddScoped<IGenerateExpensesReportExcelUseCase, GenerateExpensesReportExcelUseCase>();
+            services.AddScoped<IRegisterUserUseCase, RegisterUserUseCase>();
         }
     }
 }

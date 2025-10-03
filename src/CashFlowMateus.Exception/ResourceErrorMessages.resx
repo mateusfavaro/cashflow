@@ -135,4 +135,19 @@
   <data name="PAYMENT_TYPE_INVALID" xml:space="preserve">
     <value>The payment type is invalid.</value>
   </data>
+  <data name="NAME_EMPTY" xml:space="preserve">
+    <value>the name cannot be empty</value>
+  </data>
+  <data name="EMAIL_EMPTY" xml:space="preserve">
+    <value>Empty email</value>
+  </data>
+  <data name="EMAIL_INVALID" xml:space="preserve">
+    <value>Email invalid</value>
+  </data>
+  <data name="INVALID_PASSWORD" xml:space="preserve">
+    <value>Your password must be at least 8 characters long, containing at least one uppercase letter, one lowercase letter, one number, and one special character (for example: !,@,#,$).</value>
+  </data>
+  <data name="EMAIL_ALREADY_REGISTERED" xml:space="preserve">
+    <value>email is already in use.</value>
+  </data>
 </root>

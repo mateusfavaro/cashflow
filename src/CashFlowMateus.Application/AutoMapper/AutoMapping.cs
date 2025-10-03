@@ -17,6 +17,8 @@ namespace CashFlowMateus.Application.AutoMapper
         private void RequestToEntity()
         {
             CreateMap<RequestExpensesJson, Expense>();
+            CreateMap<RequestRegisterUserJson, User>()
+                .ForMember(dest => dest.Password, config => config.Ignore());
         }
 
         private void EntityToResponse()
